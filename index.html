@@ -4,9 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Centro Educativo Zazarabicoa | Excelencia y Tradición</title>
-    <!-- Favicon / Icono de la Institución -->
+
+    <!-- SEO & Indexación Optimizada -->
+    <title>Complejo Educativo Zazarabicoa | Excelencia y Desarrollo Integral</title>
+    <meta name="description"
+        content="Página oficial del Complejo Educativo Zazarabicoa. Educación Inicial, Primaria y Secundaria (1° a 5° año) en la Parroquia Anzoátegui, Municipio Morán, Estado Lara.">
+    <meta name="keywords"
+        content="Complejo Educativo Zazarabicoa, Liceo en Morán, educación Lara, bachillerato, primaria, inicial, Zazarabicoa">
+    <meta name="author" content="Complejo Educativo Zazarabicoa">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.zazarabicoa.online/">
+
+    <!-- Open Graph para Redes Sociales / SEO -->
+    <meta property="og:title" content="Complejo Educativo Zazarabicoa">
+    <meta property="og:description"
+        content="Motor fundamental para el desarrollo integral de las personas y de la sociedad en el Municipio Morán, Estado Lara.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/img/log_za.png">
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/img/log_zazara.ico">
+
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -32,10 +50,12 @@
             }
         }
     </script>
+
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap"
         rel="stylesheet">
+
     <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
@@ -43,36 +63,37 @@
 <body class="bg-gray-50 font-sans text-gray-800 antialiased relative">
 
     <!-- TOP BAR -->
-    <div class="bg-navy-900 text-gray-300 text-xs py-2 px-4">
+    <aside aria-label="Barra superior de avisos" class="bg-navy-900 text-gray-300 text-xs py-2 px-4">
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <div class="flex space-x-6">
-                <span><i class="fa-solid fa-graduation-cap mr-1 text-crimson-600"></i> Inscripciones 2026-2027
-                    Abiertas</span>
-                <span class="hidden md:inline"><i class="fa-solid fa-phone mr-1 text-crimson-600"></i> +1 (800)
-                    555-ZAZA</span>
+                <span><i class="fa-solid fa-graduation-cap mr-1 text-crimson-600"></i> Inscripciones Abiertas</span>
+                <span class="hidden md:inline"><i class="fa-solid fa-location-dot mr-1 text-crimson-600"></i> Parroquia
+                    Anzoátegui, Municipio Morán, Edo. Lara</span>
             </div>
-            <!-- <div class="flex space-x-4">
+            <!-- <nav aria-label="Enlaces rápidos superiores" class="flex space-x-4">
                 <a href="#noticias" class="hover:text-white transition">Noticias</a>
                 <a href="#calificaciones" class="hover:text-white transition">Calificaciones</a>
                 <a href="#horarios" class="hover:text-white transition">Horarios</a>
                 <a href="#recursos" class="hover:text-white transition">Recursos</a>
-            </div>-->
+            </nav> -->
         </div>
-    </div>
+    </aside>
 
     <!-- NAVBAR PRINCIPAL -->
-    <nav class="sticky top-0 z-50 bg-white shadow-md border-b border-gray-200">
+    <nav aria-label="Menú principal de navegación"
+        class="sticky top-0 z-50 bg-white shadow-md border-b border-gray-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
                 <!-- Logo -->
                 <div class="flex items-center space-x-3">
                     <div class="flex items-center justify-center">
-                        <img src="assets/img/log_zazara3.png" alt="Logo Zazarabicoa" class="h-10 w-auto object-contain">
+                        <img src="assets/img/log_zazara3.png" alt="Logo del Complejo Educativo Zazarabicoa"
+                            class="h-10 w-auto object-contain">
                     </div>
                     <div>
                         <span
-                            class="block font-serif font-bold text-xl tracking-wider text-navy-900 leading-tight">ZAZARABICOA</span>
-                        <span class="block text-xs uppercase tracking-widest text-crimson-700 font-semibold">Centro
+                            class="block font-serif font-bold text-base sm:text-xl tracking-wider text-navy-900 leading-tight">ZAZARABICOA</span>
+                        <span class="block text-xs uppercase tracking-widest text-crimson-700 font-semibold">Complejo
                             Educativo</span>
                     </div>
                 </div>
@@ -81,21 +102,21 @@
                 <div class="hidden lg:flex items-center space-x-6 font-medium text-sm">
                     <a href="#inicio"
                         class="text-crimson-700 font-semibold hover:text-crimson-800 transition">Inicio</a>
-                    <a href="#acerca" class="text-gray-600 hover:text-crimson-700 transition">Acerca de</a>
+                    <a href="#acerca" class="text-gray-600 hover:text-crimson-700 transition">Institución</a>
                     <a href="#academico" class="text-gray-600 hover:text-crimson-700 transition">Niveles</a>
                     <a href="#noticias" class="text-gray-600 hover:text-crimson-700 transition">Noticias</a>
                     <a href="#horarios" class="text-gray-600 hover:text-crimson-700 transition">Horarios</a>
-                    <a href="#recursos" class="text-gray-600 hover:text-crimson-700 transition">Recursos</a>
                     <a href="#calificaciones"
                         class="bg-navy-900 text-white px-4 py-2 rounded hover:bg-navy-800 transition"><i
                             class="fa-solid fa-user-graduate mr-1"></i> Calificaciones</a>
                     <a href="#contacto"
-                        class="bg-crimson-700 text-white px-5 py-2 rounded shadow hover:bg-crimson-800 transition">Contáctanos</a>
+                        class="bg-crimson-700 text-white px-5 py-2 rounded shadow hover:bg-crimson-800 transition">Ubicación</a>
                 </div>
 
                 <!-- Mobile Menu Button -->
                 <div class="lg:hidden flex items-center">
-                    <button id="menu-btn" class="text-gray-700 hover:text-crimson-700 focus:outline-none text-2xl">
+                    <button id="menu-btn" aria-label="Abrir menú de navegación"
+                        class="text-gray-700 hover:text-crimson-700 focus:outline-none text-2xl">
                         <i class="fa-solid fa-bars"></i>
                     </button>
                 </div>
@@ -105,43 +126,43 @@
         <!-- Mobile Menu Dropdown -->
         <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-gray-200 px-4 pt-2 pb-4 space-y-2">
             <a href="#inicio" class="block py-2 text-crimson-700 font-semibold">Inicio</a>
-            <a href="#acerca" class="block py-2 text-gray-600">Acerca de</a>
+            <a href="#acerca" class="block py-2 text-gray-600">Institución</a>
             <a href="#academico" class="block py-2 text-gray-600">Niveles</a>
             <a href="#noticias" class="block py-2 text-gray-600">Noticias</a>
             <a href="#horarios" class="block py-2 text-gray-600">Horarios</a>
-            <a href="#recursos" class="block py-2 text-gray-600">Recursos</a>
             <a href="#calificaciones" class="block text-center bg-navy-900 text-white py-2 rounded mt-2"><i
                     class="fa-solid fa-user-graduate mr-1"></i> Calificaciones</a>
-            <a href="#contacto" class="block text-center bg-crimson-700 text-white py-2 rounded mt-2">Contáctanos</a>
+            <a href="#contacto" class="block text-center bg-crimson-700 text-white py-2 rounded mt-2">Ubicación</a>
         </div>
     </nav>
 
     <!-- HERO SECTION -->
     <header id="inicio" class="relative bg-navy-900 text-white overflow-hidden">
         <div class="absolute inset-0 z-0 opacity-40 bg-cover bg-center"
-            style="background-image: url('assets/img/LOGO_ZAZARABICOA.png');"></div>
-        <div class="absolute inset-0 bg-gradient-to-r from-navy-900 via-navy-900/80 to-transparent z-10"></div>
+            style="background-image: url('assets/img/LOGO_ZAZARABICOA.png');" aria-hidden="true"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-navy-900 via-navy-900/80 to-transparent z-10"
+            aria-hidden="true"></div>
 
         <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 md:py-48 flex flex-col justify-center">
             <div class="max-w-2xl">
                 <span
-                    class="inline-block bg-crimson-700 text-white text-xs uppercase font-bold tracking-widest px-3 py-1 rounded mb-4">Excelencia
-                    desde 1946</span>
+                    class="inline-block bg-crimson-700 text-white text-xs uppercase font-bold tracking-widest px-3 py-1 rounded mb-4">Motor
+                    de Desarrollo Integral</span>
                 <h1 class="font-serif text-4xl sm:text-6xl font-bold tracking-tight leading-none mb-6">
-                    Centro Educativo Zazarabicoa
+                    Complejo Educativo Zazarabicoa
                 </h1>
                 <p class="text-lg text-gray-300 mb-8 font-light">
-                    Formando integralmente a las nuevas generaciones a través de la excelencia académica, valores firmes
-                    y un entorno de aprendizaje estimulante.
+                    Acompañando al estudiante durante etapas clave y decisivas para su crecimiento, fomentando la
+                    excelencia académica, valores firmes y vocación de futuro en el Municipio Morán.
                 </p>
                 <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-                    <a href="#calificaciones"
+                    <a href="#acerca"
                         class="bg-crimson-700 hover:bg-crimson-800 text-white font-medium px-8 py-3.5 rounded text-center shadow-lg transition">
-                        Ver Calificaciones
+                        Conoce la Institución
                     </a>
-                    <a href="#noticias"
+                    <a href="#calificaciones"
                         class="bg-transparent hover:bg-white/10 text-white border border-white/40 font-medium px-8 py-3.5 rounded text-center transition">
-                        Últimas Noticias
+                        Portal Estudiantil
                     </a>
                 </div>
             </div>
@@ -149,224 +170,414 @@
     </header>
 
     <!-- STATS BAR -->
-    <section class="bg-crimson-800 text-white py-8">
+    <section aria-label="Estadísticas de la institución" class="bg-crimson-800 text-white py-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             <div class="border-r border-crimson-700 last:border-none">
-                <span class="block font-serif text-3xl md:text-4xl font-bold mb-1">80+</span>
-                <span class="text-xs uppercase tracking-wider text-crimson-200">Años de Trayectoria</span>
+                <span class="block font-serif text-3xl md:text-4xl font-bold mb-1">Inicial a 5°</span>
+                <span class="text-xs uppercase tracking-wider text-crimson-200">Año de Bachillerato</span>
             </div>
             <div class="border-r border-crimson-700 last:border-none">
                 <span class="block font-serif text-3xl md:text-4xl font-bold mb-1">100%</span>
-                <span class="text-xs uppercase tracking-wider text-crimson-200">Compromiso Estudiantil</span>
+                <span class="text-xs uppercase tracking-wider text-crimson-200">Personal Calificado</span>
             </div>
             <div class="border-r border-crimson-700 last:border-none">
-                <span class="block font-serif text-3xl md:text-4xl font-bold mb-1">15+</span>
-                <span class="text-xs uppercase tracking-wider text-crimson-200">Actividades Extracurriculares</span>
+                <span class="block font-serif text-3xl md:text-4xl font-bold mb-1">Comunidad</span>
+                <span class="text-xs uppercase tracking-wider text-crimson-200">Alianza con Representantes</span>
             </div>
             <div>
-                <span class="block font-serif text-3xl md:text-4xl font-bold mb-1">12:1</span>
-                <span class="text-xs uppercase tracking-wider text-crimson-200">Ratio Alumno-Profesor</span>
+                <span class="block font-serif text-3xl md:text-4xl font-bold mb-1">Retos</span>
+                <span class="text-xs uppercase tracking-wider text-crimson-200">Innovación y Futuro</span>
             </div>
         </div>
     </section>
 
-    <!-- ACERCA DE -->
-    <section id="acerca" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <div>
-                    <h2 class="text-xs uppercase font-bold tracking-widest text-crimson-700 mb-2">Excelencia
+    <!-- MAIN CONTENT CONTAINER -->
+    <main>
+        <!-- ACERCA DE (HISTORIA Y FILOSOFÍA INSTITUCIONAL) -->
+        <section id="acerca" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h2 class="text-xs uppercase font-bold tracking-widest text-crimson-700 mb-2">Nuestra Esencia
+                        </h2>
+                        <h3 class="font-serif text-3xl md:text-4xl font-bold text-navy-900 mb-6">La Educación como motor
+                            del desarrollo integral.</h3>
+                        <p class="text-gray-600 mb-4 leading-relaxed">
+                            La Educación es un motor fundamental para lograr el desarrollo integral de las personas y de
+                            la sociedad. Es por ello que el <strong>Complejo Educativo Zazarabicoa</strong>, ubicado en
+                            la Calle 5 de Julio con Calle Don Jesús Ramos Rodríguez y Calle La Quebradita, de la
+                            parroquia Anzoátegui, municipio Morán, estado Lara, imparte clases que van desde Educación
+                            Inicial hasta 5to año de bachillerato.
+                        </p>
+                        <p class="text-gray-600 mb-6 leading-relaxed">
+                            Poseemos un gran potencial debido a que acompañamos al estudiante durante estas etapas que
+                            son pieza clave y decisiva para su crecimiento y formación. Contamos con docentes capaces y
+                            con ganas de contribuir en tan importante proceso, además de un personal completo que cubre
+                            todas las áreas: Dirección, Sub-Dirección, personal administrativo, orientadora, personal
+                            docente desde la Etapa de Educación Inicial, educación primaria (1°-6° grado), profesores
+                            para cada área en secundaria (1°-5° año), personal de limpieza y vigilancia, laboratorio de
+                            Ciencias y comedor escolar.
+                        </p>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="bg-gray-50 p-4 rounded border-l-4 border-crimson-700">
+                                <h4 class="font-bold text-navy-900 text-sm mb-1"><i
+                                        class="fa-solid fa-users text-crimson-700 mr-2"></i> Aliados Clave</h4>
+                                <p class="text-xs text-gray-600">Representantes comprometidos que colaboran activamente
+                                    con la institución.</p>
+                            </div>
+                            <div class="bg-gray-50 p-4 rounded border-l-4 border-navy-900">
+                                <h4 class="font-bold text-navy-900 text-sm mb-1"><i
+                                        class="fa-solid fa-lightbulb text-navy-900 mr-2"></i> Evolución Constante</h4>
+                                <p class="text-xs text-gray-600">Preparación continua, innovación y motivación docente
+                                    ante las exigencias actuales.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative mt-8">
+                        <!-- Añadimos un pequeño margen arriba (mt-8) para que la caja tenga espacio de sobra -->
+                        <img src="assets/img/log_zazara3.png"
+                            alt="Instalaciones del Complejo Educativo Zazarabicoa"
+                            class="rounded shadow-xl w-full h-auto object-cover">
+
+                        <!-- Caja flotante posicionada ARRIBA A LA IZQUIERDA -->
+                        <div
+                            class="absolute -top-6 -left-4 sm:-left-6 bg-navy-900 text-white p-4 sm:p-6 rounded-lg shadow-xl max-w-xs border border-white/10 z-10">
+                            <p class="font-serif italic text-xs sm:text-sm mb-1 sm:mb-2">"Formando con vocación y
+                                futuro"</p>
+                            <span
+                                class="text-[10px] sm:text-xs uppercase tracking-wider text-crimson-400 font-semibold">-
+                                Municipio Morán, Edo. Lara</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!-- PROGRAMAS ACADÉMICOS -->
+        <section id="academico" class="py-20 bg-gray-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <header class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-xs uppercase font-bold tracking-widest text-crimson-700 mb-2">Trayectoria Educativa
+                    </h2>
+                    <h3 class="font-serif text-3xl md:text-4xl font-bold text-navy-900 mb-4">Niveles de Formación</h3>
+                    <p class="text-gray-600">Acompañamiento pedagógico continuo desde los primeros pasos hasta la
+                        culminación de la educación secundaria.</p>
+                </header>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <article
+                        class="bg-white rounded shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between p-6">
+                        <div>
+                            <span class="text-xs uppercase font-bold text-crimson-700">Etapa Inicial</span>
+                            <h4 class="font-serif text-xl font-bold text-navy-900 mt-1 mb-3">Educación Inicial</h4>
+                            <p class="text-gray-600 text-sm mb-4">Estimulación temprana, desarrollo socioemocional y
+                                bases formativas iniciales guiadas por docentes especializados en los más pequeños.</p>
+                        </div>
+                        <span class="text-xs text-gray-400 font-medium"><i
+                                class="fa-solid fa-circle-check text-crimson-700 mr-1"></i> Personal docente
+                            dedicado</span>
+                    </article>
+                    <article
+                        class="bg-white rounded shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between p-6">
+                        <div>
+                            <span class="text-xs uppercase font-bold text-crimson-700">Educación Básica</span>
+                            <h4 class="font-serif text-xl font-bold text-navy-900 mt-1 mb-3">Educación Primaria (1° - 6°
+                                Grado)</h4>
+                            <p class="text-gray-600 text-sm mb-4">Consolidación de habilidades fundamentales en
+                                lectoescritura, cálculo, ciencias y valores ciudadanos.</p>
+                        </div>
+                        <span class="text-xs text-gray-400 font-medium"><i
+                                class="fa-solid fa-circle-check text-crimson-700 mr-1"></i> Cobertura integral por
+                            grados</span>
+                    </article>
+                    <article
+                        class="bg-white rounded shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between p-6">
+                        <div>
+                            <span class="text-xs uppercase font-bold text-crimson-700">Media General</span>
+                            <h4 class="font-serif text-xl font-bold text-navy-900 mt-1 mb-3">Educación Secundaria (1° -
+                                5° Año)</h4>
+                            <p class="text-gray-600 text-sm mb-4">Profesores especializados por área de conocimiento,
+                                preparando al estudiante para los retos universitarios y profesionales.</p>
+                        </div>
+                        <span class="text-xs text-gray-400 font-medium"><i
+                                class="fa-solid fa-circle-check text-crimson-700 mr-1"></i> Docentes por áreas
+                            académicas</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SECCIÓN DE CALIFICACIONES -->
+        <section id="calificaciones" class="py-20 bg-gray-50 border-t border-gray-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <header class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-xs uppercase font-bold tracking-widest text-crimson-700 mb-2">Portal Estudiantil
+                    </h2>
+                    <h3 class="font-serif text-3xl md:text-4xl font-bold text-navy-900 mb-4">Consulta de Calificaciones
+                    </h3>
+                    <p class="text-gray-600">Accede al sistema escolar digital del Complejo Educativo Zazarabicoa
+                        ingresando los datos del estudiante.</p>
+                </header>
+
+                <div class="max-w-xl mx-auto bg-white p-8 rounded-lg shadow-md border border-gray-200">
+                    <form
+                        onsubmit="event.preventDefault(); alert('Conectando con el servidor escolar... Por favor ingrese un número de cédula o código válido.');"
+                        class="space-y-4">
+                        <div>
+                            <label class="block text-xs font-semibold uppercase text-gray-600 mb-1">Nivel / Año
+                                Escolar</label>
+                            <select
+                                class="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-crimson-700 bg-white text-sm text-gray-700">
+                                <option>Seleccione el nivel...</option>
+                                <option>Educación Inicial</option>
+                                <option>Educación Primaria (1° a 6° Grado)</option>
+                                <option>Educación Secundaria (1° a 5° Año)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold uppercase text-gray-600 mb-1">Cédula del
+                                Estudiante o Representante</label>
+                            <input type="text" placeholder="Ej. V-30123456"
+                                class="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-crimson-700 text-sm">
+                        </div>
+                        <button type="submit"
+                            class="w-full bg-crimson-700 hover:bg-crimson-800 text-white font-medium py-3 rounded text-sm transition shadow">
+                            <i class="fa-solid fa-magnifying-glass mr-2"></i> Consultar Boletín
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE NOTICIAS -->
+        <section id="noticias" class="py-20 bg-white border-t border-gray-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <header class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-xs uppercase font-bold tracking-widest text-crimson-700 mb-2">Actualidad
                         Institucional</h2>
-                    <h3 class="font-serif text-3xl md:text-4xl font-bold text-navy-900 mb-6">Un compromiso histórico con
-                        la educación integral.</h3>
-                    <p class="text-gray-600 mb-4 leading-relaxed">
-                        En el Centro Educativo Zazarabicoa fomentamos el pensamiento crítico, los valores éticos y el
-                        desarrollo socioemocional desde los primeros años de formación hasta la etapa de bachillerato.
-                    </p>
-                    <ul class="space-y-3 mb-8">
-                        <li class="flex items-center text-gray-700">
-                            <i class="fa-solid fa-check text-crimson-700 mr-3"></i> Metodología pedagógica moderna e
-                            inclusiva.
-                        </li>
-                        <li class="flex items-center text-gray-700">
-                            <i class="fa-solid fa-check text-crimson-700 mr-3"></i> Docentes altamente calificados y en
-                            constante actualización.
-                        </li>
-                    </ul>
-                </div>
-                <div class="relative">
-                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800"
-                        alt="Estudiantes Zazarabicoa" class="rounded shadow-xl">
-                    <div
-                        class="absolute -bottom-6 -left-6 bg-navy-900 text-white p-6 rounded shadow-lg hidden sm:block max-w-xs">
-                        <p class="font-serif italic text-sm mb-2">"Formando el futuro con valores"</p>
-                        <span class="text-xs uppercase tracking-wider text-crimson-400 font-semibold">- Lema
-                            Institucional</span>
-                    </div>
+                    <h3 class="font-serif text-3xl md:text-4xl font-bold text-navy-900 mb-4">Noticias y Avisos</h3>
+                    <p class="text-gray-600">Entérate de los próximos eventos, comunicados oficiales y actividades de
+                        nuestra comunidad educativa.</p>
+                </header>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Noticia 1 -->
+                    <article
+                        class="bg-gray-50 rounded-lg shadow-sm border border-gray-200 overflow-hidden flex flex-col justify-between">
+                        <div>
+                            <div
+                                class="bg-crimson-700 text-white text-xs px-3 py-1 inline-block m-4 rounded font-semibold">
+                                Proyectos</div>
+                            <h4 class="font-serif text-lg font-bold text-navy-900 px-6 mb-2">Avances en el Plan de
+                                Infraestructura</h4>
+                            <p class="text-gray-600 text-sm px-6 mb-6">Ampliación del escenario, construcción de aulas
+                                para secundaria y cancha deportiva gracias a la colaboración de representantes.</p>
+                        </div>
+                        <div class="px-6 pb-6">
+                            <button onclick="abrirModal('modal-noticia-1')"
+                                class="w-full bg-navy-900 hover:bg-navy-800 text-white font-medium py-2 rounded text-sm transition">Leer
+                                Más</button>
+                        </div>
+                    </article>
+                    <!-- Noticia 2 -->
+                    <article
+                        class="bg-gray-50 rounded-lg shadow-sm border border-gray-200 overflow-hidden flex flex-col justify-between">
+                        <div>
+                            <div
+                                class="bg-crimson-700 text-white text-xs px-3 py-1 inline-block m-4 rounded font-semibold">
+                                Académico</div>
+                            <h4 class="font-serif text-lg font-bold text-navy-900 px-6 mb-2">Jornada de Formación
+                                Docente</h4>
+                            <p class="text-gray-600 text-sm px-6 mb-6">Preparación continua, planificación e innovación
+                                para ir al ritmo de las exigencias de la sociedad de hoy.</p>
+                        </div>
+                        <div class="px-6 pb-6">
+                            <button onclick="abrirModal('modal-noticia-2')"
+                                class="w-full bg-navy-900 hover:bg-navy-800 text-white font-medium py-2 rounded text-sm transition">Leer
+                                Más</button>
+                        </div>
+                    </article>
+                    <!-- Noticia 3 -->
+                    <article
+                        class="bg-gray-50 rounded-lg shadow-sm border border-gray-200 overflow-hidden flex flex-col justify-between">
+                        <div>
+                            <div
+                                class="bg-crimson-700 text-white text-xs px-3 py-1 inline-block m-4 rounded font-semibold">
+                                Comunidad</div>
+                            <h4 class="font-serif text-lg font-bold text-navy-900 px-6 mb-2">Reunión General de
+                                Representantes</h4>
+                            <p class="text-gray-600 text-sm px-6 mb-6">Convocatoria abierta para evaluar las metas del
+                                periodo y fortalecer la colaboración institucional.</p>
+                        </div>
+                        <div class="px-6 pb-6">
+                            <button onclick="abrirModal('modal-noticia-3')"
+                                class="w-full bg-navy-900 hover:bg-navy-800 text-white font-medium py-2 rounded text-sm transition">Leer
+                                Más</button>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- PROGRAMAS ACADÉMICOS -->
-    <section id="academico" class="py-20 bg-gray-100">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-xs uppercase font-bold tracking-widest text-crimson-700 mb-2">Oferta Académica</h2>
-                <h3 class="font-serif text-3xl md:text-4xl font-bold text-navy-900 mb-4">Niveles Educativos</h3>
-            </div>
+        <!-- HORARIOS -->
+        <section id="horarios" class="py-20 bg-gray-50 border-t border-gray-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <header class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-xs uppercase font-bold tracking-widest text-crimson-700 mb-2">Consulta en Línea</h2>
+                    <h3 class="font-serif text-3xl md:text-4xl font-bold text-navy-900 mb-4">Horarios por Turnos y Año
+                        Escolar</h3>
+                    <p class="text-gray-600">Filtra las clases del Complejo Educativo seleccionando el año cursante, el
+                        turno o escribiendo el nombre de la materia.</p>
+                </header>
 
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div
-                    class="bg-white rounded shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between p-6">
+                <!-- Filtros -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
                     <div>
-                        <span class="text-xs uppercase font-bold text-crimson-700">Nivel Inicial</span>
-                        <h4 class="font-serif text-xl font-bold text-navy-900 mt-1 mb-3">Simoncito</h4>
-                        <p class="text-gray-600 text-sm mb-4">Estimulación temprana y desarrollo psicomotriz en un
-                            ambiente seguro y afectuoso para los más pequeños.</p>
-                    </div>
-                </div>
-                <div
-                    class="bg-white rounded shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between p-6">
-                    <div>
-                        <span class="text-xs uppercase font-bold text-crimson-700">Nivel Inicial</span>
-                        <h4 class="font-serif text-xl font-bold text-navy-900 mt-1 mb-3">Preescolar</h4>
-                        <p class="text-gray-600 text-sm mb-4">Iniciación a la lectoescritura, socialización y bases
-                            lógico-matemáticas a través del juego y la creatividad.</p>
-                    </div>
-                </div>
-                <div
-                    class="bg-white rounded shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between p-6">
-                    <div>
-                        <span class="text-xs uppercase font-bold text-crimson-700">Educación Básica</span>
-                        <h4 class="font-serif text-xl font-bold text-navy-900 mt-1 mb-3">Primaria</h4>
-                        <p class="text-gray-600 text-sm mb-4">Consolidación de habilidades académicas fundamentales,
-                            ciencias, arte, deportes y valores ciudadanos.</p>
-                    </div>
-                </div>
-                <div
-                    class="bg-white rounded shadow-md overflow-hidden hover:shadow-xl transition flex flex-col justify-between p-6">
-                    <div>
-                        <span class="text-xs uppercase font-bold text-crimson-700">Media General</span>
-                        <h4 class="font-serif text-xl font-bold text-navy-900 mt-1 mb-3">Bachillerato</h4>
-                        <p class="text-gray-600 text-sm mb-4">Preparación integral avanzada con orientación vocacional
-                            para asegurar el éxito en la educación superior.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- SECCIÓN DE CALIFICACIONES -->
-    <section id="calificaciones" class="py-20 bg-white border-t border-gray-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-12">
-                <h2 class="text-xs uppercase font-bold tracking-widest text-crimson-700 mb-2">Portal Estudiantil</h2>
-                <h3 class="font-serif text-3xl md:text-4xl font-bold text-navy-900 mb-4">Consulta de Calificaciones</h3>
-                <p class="text-gray-600">Accede al sistema escolar digital ingresando los datos del estudiante para
-                    revisar su boletín de notas correspondiente al periodo actual.</p>
-            </div>
-
-            <!-- Formulario de Consulta de Notas -->
-            <div class="max-w-xl mx-auto bg-gray-50 p-8 rounded-lg shadow-md border border-gray-200">
-                <form
-                    onsubmit="event.preventDefault(); alert('Conectando con el servidor escolar... Por favor ingrese un número de cédula o código válido.');"
-                    class="space-y-4">
-                    <div>
-                        <label class="block text-xs font-semibold uppercase text-gray-600 mb-1">Nivel / Año
-                            Escolar</label>
-                        <select
-                            class="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-crimson-700 bg-white text-sm text-gray-700">
-                            <option>Seleccione el nivel...</option>
-                            <option>Simoncito / Preescolar</option>
-                            <option>Primaria (1° a 6° Grado)</option>
-                            <option>Bachillerato (1° a 5° Año)</option>
+                        <label class="block text-xs font-semibold uppercase text-gray-600 mb-1">Nivel Educativo</label>
+                        <select id="filtro-facultad"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-crimson-700 bg-white text-gray-700 text-sm">
+                            <option value="todos">Todos los Niveles</option>
+                            <option value="Primaria">Primaria (1° - 6°)</option>
+                            <option value="Bachillerato">Secundaria (1° - 5°)</option>
                         </select>
                     </div>
                     <div>
-                        <label class="block text-xs font-semibold uppercase text-gray-600 mb-1">Cédula del Estudiante o
-                            Representante</label>
-                        <input type="text" placeholder="Ej. V-30123456"
+                        <label class="block text-xs font-semibold uppercase text-gray-600 mb-1">Año / Grado</label>
+                        <select id="filtro-ano"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-crimson-700 bg-white text-gray-700 text-sm">
+                            <option value="todos">Todos los Años</option>
+                            <option value="1er Año">1er Año</option>
+                            <option value="2do Año">2do Año</option>
+                            <option value="3er Año">3er Año</option>
+                            <option value="4to Año">4to Año</option>
+                            <option value="5to Año">5to Año</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold uppercase text-gray-600 mb-1">Turno</label>
+                        <select id="filtro-turno"
+                            class="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-crimson-700 bg-white text-gray-700 text-sm">
+                            <option value="todos">Todos los Turnos</option>
+                            <option value="Mañana">Mañana</option>
+                            <option value="Tarde">Tarde</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold uppercase text-gray-600 mb-1">Búsqueda Libre</label>
+                        <input type="text" id="buscador-materia" placeholder="Materia o profesor..."
                             class="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-crimson-700 text-sm">
                     </div>
-                    <button type="submit"
-                        class="w-full bg-crimson-700 hover:bg-crimson-800 text-white font-medium py-3 rounded text-sm transition shadow">
-                        <i class="fa-solid fa-magnifying-glass mr-2"></i> Consultar Boletín
-                    </button>
-                </form>
-            </div>
-        </div>
-    </section>
+                </div>
 
-    <!-- SECCIÓN DE NOTICIAS (MODALES) -->
-    <section id="noticias" class="py-20 bg-gray-50 border-t border-gray-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-xs uppercase font-bold tracking-widest text-crimson-700 mb-2">Actualidad Institucional
-                </h2>
-                <h3 class="font-serif text-3xl md:text-4xl font-bold text-navy-900 mb-4">Noticias y Avisos</h3>
-                <p class="text-gray-600">Entérate de los próximos eventos, comunicados oficiales y actividades
-                    destacadas de nuestra comunidad.</p>
+                <!-- Tabla -->
+                <div class="overflow-x-auto shadow-md rounded-lg border border-gray-200">
+                    <table class="min-w-full divide-y divide-gray-200 text-left">
+                        <thead class="bg-navy-900 text-white">
+                            <tr>
+                                <th class="px-6 py-4 text-xs font-semibold uppercase tracking-wider">Materia / Cátedra
+                                </th>
+                                <th class="px-6 py-4 text-xs font-semibold uppercase tracking-wider">Nivel</th>
+                                <th class="px-6 py-4 text-xs font-semibold uppercase tracking-wider">Año / Grado</th>
+                                <th class="px-6 py-4 text-xs font-semibold uppercase tracking-wider">Turno</th>
+                                <th class="px-6 py-4 text-xs font-semibold uppercase tracking-wider">Horario</th>
+                                <th class="px-6 py-4 text-xs font-semibold uppercase tracking-wider">Profesor</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabla-horarios" class="bg-white divide-y divide-gray-200 text-sm text-gray-700">
+                            <tr data-facultad="Primaria" data-ano="6to Grado" data-turno="Mañana">
+                                <td class="px-6 py-4 font-medium text-navy-900">Matemáticas y Razonamiento</td>
+                                <td class="px-6 py-4 text-crimson-700 font-semibold">Primaria</td>
+                                <td class="px-6 py-4">6to Grado</td>
+                                <td class="px-6 py-4"><span
+                                        class="bg-blue-100 text-blue-800 text-xs px-2.5 py-1 rounded font-medium">Mañana</span>
+                                </td>
+                                <td class="px-6 py-4">08:00 AM - 09:40 AM</td>
+                                <td class="px-6 py-4">Prof. Asignado</td>
+                            </tr>
+                            <tr data-facultad="Bachillerato" data-ano="3er Año" data-turno="Mañana">
+                                <td class="px-6 py-4 font-medium text-navy-900">Laboratorio de Ciencias
+                                    (Química/Biología)</td>
+                                <td class="px-6 py-4 text-crimson-700 font-semibold">Bachillerato</td>
+                                <td class="px-6 py-4">3er Año</td>
+                                <td class="px-6 py-4"><span
+                                        class="bg-blue-100 text-blue-800 text-xs px-2.5 py-1 rounded font-medium">Mañana</span>
+                                </td>
+                                <td class="px-6 py-4">10:00 AM - 11:40 AM</td>
+                                <td class="px-6 py-4">Prof. Especialista de Ciencias</td>
+                            </tr>
+                            <tr data-facultad="Bachillerato" data-ano="5to Año" data-turno="Tarde">
+                                <td class="px-6 py-4 font-medium text-navy-900">Física Aplicada y Avanzada</td>
+                                <td class="px-6 py-4 text-crimson-700 font-semibold">Bachillerato</td>
+                                <td class="px-6 py-4">5to Año</td>
+                                <td class="px-6 py-4"><span
+                                        class="bg-orange-100 text-orange-800 text-xs px-2.5 py-1 rounded font-medium">Tarde</span>
+                                </td>
+                                <td class="px-6 py-4">01:00 PM - 02:40 PM</td>
+                                <td class="px-6 py-4">Prof. de Área Secundaria</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
+        </section>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Noticia 1 -->
-                <div
-                    class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden flex flex-col justify-between">
-                    <div>
-                        <div class="bg-crimson-700 text-white text-xs px-3 py-1 inline-block m-4 rounded font-semibold">
-                            Eventos</div>
-                        <h4 class="font-serif text-lg font-bold text-navy-900 px-6 mb-2">Feria de Ciencias y Tecnología
-                            2026</h4>
-                        <p class="text-gray-600 text-sm px-6 mb-6">Nuestros estudiantes de media general presentarán sus
-                            proyectos innovadores este próximo viernes en el auditorio principal.</p>
+        <!-- RECURSOS -->
+        <section id="recursos" class="py-20 bg-white border-t border-gray-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <header class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-xs uppercase font-bold tracking-widest text-crimson-700 mb-2">Centro de
+                        Documentación</h2>
+                    <h3 class="font-serif text-3xl md:text-4xl font-bold text-navy-900 mb-4">Descarga de Recursos
+                        Institucionales</h3>
+                    <p class="text-gray-600">Accede a las guías oficiales, circulares y formatos de inscripción del
+                        Complejo Educativo.</p>
+                </header>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div
+                        class="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col justify-between">
+                        <div>
+                            <div class="text-crimson-700 text-3xl mb-4"><i class="fa-solid fa-file-pdf"></i></div>
+                            <h4 class="font-serif text-lg font-bold text-navy-900 mb-2">Guía General de Admisiones</h4>
+                            <p class="text-gray-600 text-sm mb-6">Requisitos para ingreso desde Educación Inicial hasta
+                                5to año de bachillerato.</p>
+                        </div>
+                        <button onclick="descargarRecurso('Guia_Admisiones_Complejo_Educativo_Zazarabicoa.pdf')"
+                            class="w-full bg-navy-900 hover:bg-navy-800 text-white font-medium py-2.5 rounded text-sm transition">Descargar
+                            PDF</button>
                     </div>
-                    <div class="px-6 pb-6">
-                        <button onclick="abrirModal('modal-noticia-1')"
-                            class="w-full bg-navy-900 hover:bg-navy-800 text-white font-medium py-2 rounded text-sm transition">Leer
-                            Más</button>
+                    <div
+                        class="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col justify-between">
+                        <div>
+                            <div class="text-crimson-700 text-3xl mb-4"><i class="fa-solid fa-file-lines"></i></div>
+                            <h4 class="font-serif text-lg font-bold text-navy-900 mb-2">Lista de Útiles Escolares</h4>
+                            <p class="text-gray-600 text-sm mb-6">Materiales requeridos por nivel y año escolar en
+                                curso.</p>
+                        </div>
+                        <button onclick="descargarRecurso('Lista_Utiles_Zazarabicoa.pdf')"
+                            class="w-full bg-navy-900 hover:bg-navy-800 text-white font-medium py-2.5 rounded text-sm transition">Descargar
+                            PDF</button>
                     </div>
-                </div>
-                <!-- Noticia 2 -->
-                <div
-                    class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden flex flex-col justify-between">
-                    <div>
-                        <div class="bg-crimson-700 text-white text-xs px-3 py-1 inline-block m-4 rounded font-semibold">
-                            Académico</div>
-                        <h4 class="font-serif text-lg font-bold text-navy-900 px-6 mb-2">Inicio de Evaluaciones del III
-                            Lapso</h4>
-                        <p class="text-gray-600 text-sm px-6 mb-6">Recordamos a los representantes revisar el calendario
-                            de evaluaciones disponible en la sección de recursos.</p>
-                    </div>
-                    <div class="px-6 pb-6">
-                        <button onclick="abrirModal('modal-noticia-2')"
-                            class="w-full bg-navy-900 hover:bg-navy-800 text-white font-medium py-2 rounded text-sm transition">Leer
-                            Más</button>
-                    </div>
-                </div>
-                <!-- Noticia 3 -->
-                <div
-                    class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden flex flex-col justify-between">
-                    <div>
-                        <div class="bg-crimson-700 text-white text-xs px-3 py-1 inline-block m-4 rounded font-semibold">
-                            Comunidad</div>
-                        <h4 class="font-serif text-lg font-bold text-navy-900 px-6 mb-2">Jornada Deportiva Intercolegial
-                        </h4>
-                        <p class="text-gray-600 text-sm px-6 mb-6">Gran cierre de los torneos de fútbol y baloncesto con
-                            la participación de destacadas instituciones invitadas.</p>
-                    </div>
-                    <div class="px-6 pb-6">
-                        <button onclick="abrirModal('modal-noticia-3')"
-                            class="w-full bg-navy-900 hover:bg-navy-800 text-white font-medium py-2 rounded text-sm transition">Leer
-                            Más</button>
+                    <div
+                        class="bg-gray-50 p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col justify-between">
+                        <div>
+                            <div class="text-crimson-700 text-3xl mb-4"><i class="fa-solid fa-book-bookmark"></i></div>
+                            <h4 class="font-serif text-lg font-bold text-navy-900 mb-2">Calendario Académico</h4>
+                            <p class="text-gray-600 text-sm mb-6">Cronograma detallado de actividades y proyectos
+                                futuros de la institución.</p>
+                        </div>
+                        <button onclick="descargarRecurso('Calendario_Academico_Zazarabicoa.pdf')"
+                            class="w-full bg-navy-900 hover:bg-navy-800 text-white font-medium py-2.5 rounded text-sm transition">Descargar
+                            PDF</button>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- VENTANAS MODALES PARA NOTICIAS -->
-    <!-- Modal 1 -->
     <div id="modal-noticia-1" class="fixed inset-0 z-50 hidden bg-black/60 flex items-center justify-center p-4">
         <div class="bg-white rounded-lg max-w-lg w-full p-6 shadow-2xl relative transform transition-all">
             <button onclick="cerrarModal('modal-noticia-1')"
@@ -374,20 +585,20 @@
                     class="fa-solid fa-xmark"></i></button>
             <div class="flex items-center space-x-2 mb-3">
                 <img src="assets/img/log_za.png" alt="Zazarabicoa" class="h-6 w-auto object-contain">
-                <span class="text-xs uppercase tracking-wider text-crimson-700 font-bold">Centro Educativo
+                <span class="text-xs uppercase tracking-wider text-crimson-700 font-bold">Complejo Educativo
                     Zazarabicoa</span>
             </div>
             <span
-                class="bg-crimson-700 text-white text-xs px-2.5 py-1 rounded font-semibold inline-block mb-3">Eventos</span>
-            <h3 class="font-serif text-2xl font-bold text-navy-900 mb-4">Feria de Ciencias y Tecnología 2026</h3>
+                class="bg-crimson-700 text-white text-xs px-2.5 py-1 rounded font-semibold inline-block mb-3">Proyectos</span>
+            <h3 class="font-serif text-2xl font-bold text-navy-900 mb-4">Avances en el Plan de Infraestructura</h3>
             <p class="text-gray-600 text-sm leading-relaxed mb-4">
-                Nos complace invitar a toda la comunidad educativa a la gran Feria de Ciencias y Tecnología 2026. Los
-                estudiantes de media general han desarrollado proyectos innovadores enfocados en robótica, energías
-                renovables y desarrollo sostenible.
+                El Complejo Educativo Zazarabicoa asume grandes retos futuros como la ampliación del escenario, la
+                construcción de más aulas para la parte de secundaria específicamente, y la futura construcción de una
+                cancha dentro de la institución.
             </p>
             <p class="text-gray-600 text-sm leading-relaxed mb-6">
-                El evento se llevará a cabo este próximo viernes a partir de las 08:00 AM en el auditorio principal de
-                nuestra institución. ¡Los esperamos para apoyar el talento de nuestros jóvenes!
+                Todo esto se lleva a cabo de la mano de los representantes, quienes en su mayoría colaboran activamente
+                con el crecimiento y mejora de nuestros espacios educativos en el Municipio Morán.
             </p>
             <button onclick="cerrarModal('modal-noticia-1')"
                 class="w-full bg-navy-900 text-white py-2.5 rounded font-medium text-sm hover:bg-navy-800 transition">Cerrar
@@ -395,7 +606,6 @@
         </div>
     </div>
 
-    <!-- Modal 2 -->
     <div id="modal-noticia-2" class="fixed inset-0 z-50 hidden bg-black/60 flex items-center justify-center p-4">
         <div class="bg-white rounded-lg max-w-lg w-full p-6 shadow-2xl relative transform transition-all">
             <button onclick="cerrarModal('modal-noticia-2')"
@@ -403,20 +613,19 @@
                     class="fa-solid fa-xmark"></i></button>
             <div class="flex items-center space-x-2 mb-3">
                 <img src="assets/img/log_za.png" alt="Zazarabicoa" class="h-6 w-auto object-contain">
-                <span class="text-xs uppercase tracking-wider text-crimson-700 font-bold">Centro Educativo
+                <span class="text-xs uppercase tracking-wider text-crimson-700 font-bold">Complejo Educativo
                     Zazarabicoa</span>
             </div>
             <span
                 class="bg-crimson-700 text-white text-xs px-2.5 py-1 rounded font-semibold inline-block mb-3">Académico</span>
-            <h3 class="font-serif text-2xl font-bold text-navy-900 mb-4">Inicio de Evaluaciones del III Lapso</h3>
+            <h3 class="font-serif text-2xl font-bold text-navy-900 mb-4">Jornada de Formación Docente</h3>
             <p class="text-gray-600 text-sm leading-relaxed mb-4">
-                Se les recuerda a todos los representantes y alumnos que el cronograma oficial de evaluaciones
-                correspondientes al tercer lapso del periodo escolar ya se encuentra disponible para su descarga en la
-                sección de recursos del portal.
+                Contamos con docentes capaces y con ganas de contribuir en tan importante proceso formativo. Por ello,
+                se impulsa permanentemente la preparación continua, la planificación y la innovación.
             </p>
             <p class="text-gray-600 text-sm leading-relaxed mb-6">
-                Exhortamos a mantener al día sus asignaciones y consultar el boletín digital preventivamente ante
-                cualquier duda con las calificaciones parciales.
+                El objetivo es ir al ritmo de las exigencias de la sociedad de hoy, manteniendo siempre una alta
+                motivación para con los estudiantes que asisten a nuestra casa de estudios.
             </p>
             <button onclick="cerrarModal('modal-noticia-2')"
                 class="w-full bg-navy-900 text-white py-2.5 rounded font-medium text-sm hover:bg-navy-800 transition">Cerrar
@@ -424,7 +633,6 @@
         </div>
     </div>
 
-    <!-- Modal 3 -->
     <div id="modal-noticia-3" class="fixed inset-0 z-50 hidden bg-black/60 flex items-center justify-center p-4">
         <div class="bg-white rounded-lg max-w-lg w-full p-6 shadow-2xl relative transform transition-all">
             <button onclick="cerrarModal('modal-noticia-3')"
@@ -432,19 +640,20 @@
                     class="fa-solid fa-xmark"></i></button>
             <div class="flex items-center space-x-2 mb-3">
                 <img src="assets/img/log_za.png" alt="Zazarabicoa" class="h-6 w-auto object-contain">
-                <span class="text-xs uppercase tracking-wider text-crimson-700 font-bold">Centro Educativo
+                <span class="text-xs uppercase tracking-wider text-crimson-700 font-bold">Complejo Educativo
                     Zazarabicoa</span>
             </div>
             <span
                 class="bg-crimson-700 text-white text-xs px-2.5 py-1 rounded font-semibold inline-block mb-3">Comunidad</span>
-            <h3 class="font-serif text-2xl font-bold text-navy-900 mb-4">Jornada Deportiva Intercolegial</h3>
+            <h3 class="font-serif text-2xl font-bold text-navy-900 mb-4">Reunión General de Representantes</h3>
             <p class="text-gray-600 text-sm leading-relaxed mb-4">
-                Con gran éxito culminó la Jornada Deportiva Intercolegial Zazarabicoa 2026, donde nuestros equipos de
-                fútbol sala y baloncesto demostraron disciplina, compañerismo y alto rendimiento.
+                La comunidad de representantes es un pilar fundamental para el desarrollo del Complejo Educativo
+                Zazarabicoa. En esta convocatoria se discuten los avances y las metas conjuntas en pro del bienestar
+                estudiantil.
             </p>
             <p class="text-gray-600 text-sm leading-relaxed mb-6">
-                Agradecemos la entusiasta participación de las instituciones invitadas y de toda la barra estudiantil
-                que acompañó cada encuentro fomentando los valores del deporte limpio.
+                Agradecemos la participación masiva y el compromiso demostrado en cada una de las actividades
+                programadas para este periodo escolar.
             </p>
             <button onclick="cerrarModal('modal-noticia-3')"
                 class="w-full bg-navy-900 text-white py-2.5 rounded font-medium text-sm hover:bg-navy-800 transition">Cerrar
@@ -452,206 +661,57 @@
         </div>
     </div>
 
-    <!-- HORARIOS POR TURNOS Y AÑO -->
-    <section id="horarios" class="py-20 bg-white border-t border-gray-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-12">
-                <h2 class="text-xs uppercase font-bold tracking-widest text-crimson-700 mb-2">Consulta en Línea</h2>
-                <h3 class="font-serif text-3xl md:text-4xl font-bold text-navy-900 mb-4">Horarios por Turnos y Año
-                    Escolar</h3>
-                <p class="text-gray-600">Filtra las clases del Centro Educativo Zazarabicoa seleccionando el año
-                    cursante, el turno o escribiendo el nombre de la materia.</p>
-            </div>
-
-            <!-- Filtros Avanzados -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-                <div>
-                    <label class="block text-xs font-semibold uppercase text-gray-600 mb-1">Nivel Educativo</label>
-                    <select id="filtro-facultad"
-                        class="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-crimson-700 bg-white text-gray-700 text-sm">
-                        <option value="todos">Todos los Niveles</option>
-                        <option value="Primaria">Primaria</option>
-                        <option value="Bachillerato">Bachillerato</option>
-                    </select>
-                </div>
-                <div>
-                    <label class="block text-xs font-semibold uppercase text-gray-600 mb-1">Año / Grado</label>
-                    <select id="filtro-ano"
-                        class="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-crimson-700 bg-white text-gray-700 text-sm">
-                        <option value="todos">Todos los Años</option>
-                        <option value="1er Año">1er Año</option>
-                        <option value="2do Año">2do Año</option>
-                        <option value="3er Año">3er Año</option>
-                        <option value="4to Año">4to Año</option>
-                    </select>
-                </div>
-                <div>
-                    <label class="block text-xs font-semibold uppercase text-gray-600 mb-1">Turno</label>
-                    <select id="filtro-turno"
-                        class="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-crimson-700 bg-white text-gray-700 text-sm">
-                        <option value="todos">Todos los Turnos</option>
-                        <option value="Mañana">Mañana</option>
-                        <option value="Tarde">Tarde</option>
-                    </select>
-                </div>
-                <div>
-                    <label class="block text-xs font-semibold uppercase text-gray-600 mb-1">Búsqueda Libre</label>
-                    <input type="text" id="buscador-materia" placeholder="Materia o profesor..."
-                        class="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-crimson-700 text-sm">
-                </div>
-            </div>
-
-            <!-- Tabla de Horarios -->
-            <div class="overflow-x-auto shadow-md rounded-lg border border-gray-200">
-                <table class="min-w-full divide-y divide-gray-200 text-left">
-                    <thead class="bg-navy-900 text-white">
-                        <tr>
-                            <th class="px-6 py-4 text-xs font-semibold uppercase tracking-wider">Materia / Cátedra</th>
-                            <th class="px-6 py-4 text-xs font-semibold uppercase tracking-wider">Nivel</th>
-                            <th class="px-6 py-4 text-xs font-semibold uppercase tracking-wider">Año / Grado</th>
-                            <th class="px-6 py-4 text-xs font-semibold uppercase tracking-wider">Turno</th>
-                            <th class="px-6 py-4 text-xs font-semibold uppercase tracking-wider">Horario</th>
-                            <th class="px-6 py-4 text-xs font-semibold uppercase tracking-wider">Profesor</th>
-                        </tr>
-                    </thead>
-                    <tbody id="tabla-horarios" class="bg-white divide-y divide-gray-200 text-sm text-gray-700">
-                        <tr data-facultad="Primaria" data-ano="1er Año" data-turno="Mañana">
-                            <td class="px-6 py-4 font-medium text-navy-900">Matemáticas Básicas</td>
-                            <td class="px-6 py-4 text-crimson-700 font-semibold">Primaria</td>
-                            <td class="px-6 py-4">5to Grado</td>
-                            <td class="px-6 py-4"><span
-                                    class="bg-blue-100 text-blue-800 text-xs px-2.5 py-1 rounded font-medium">Mañana</span>
-                            </td>
-                            <td class="px-6 py-4">08:00 AM - 09:40 AM</td>
-                            <td class="px-6 py-4">Prof. Carmen Rosa</td>
-                        </tr>
-                        <tr data-facultad="Bachillerato" data-ano="2do Año" data-turno="Tarde">
-                            <td class="px-6 py-4 font-medium text-navy-900">Biología y Ambiente</td>
-                            <td class="px-6 py-4 text-crimson-700 font-semibold">Bachillerato</td>
-                            <td class="px-6 py-4">2do Año</td>
-                            <td class="px-6 py-4"><span
-                                    class="bg-orange-100 text-orange-800 text-xs px-2.5 py-1 rounded font-medium">Tarde</span>
-                            </td>
-                            <td class="px-6 py-4">01:00 PM - 02:40 PM</td>
-                            <td class="px-6 py-4">Prof. Luis Alejandro</td>
-                        </tr>
-                        <tr data-facultad="Bachillerato" data-ano="3er Año" data-turno="Mañana">
-                            <td class="px-6 py-4 font-medium text-navy-900">Química General</td>
-                            <td class="px-6 py-4 text-crimson-700 font-semibold">Bachillerato</td>
-                            <td class="px-6 py-4">3er Año</td>
-                            <td class="px-6 py-4"><span
-                                    class="bg-blue-100 text-blue-800 text-xs px-2.5 py-1 rounded font-medium">Mañana</span>
-                            </td>
-                            <td class="px-6 py-4">10:00 AM - 11:40 AM</td>
-                            <td class="px-6 py-4">Prof. Sofía Valera</td>
-                        </tr>
-                        <tr data-facultad="Bachillerato" data-ano="4to Año" data-turno="Tarde">
-                            <td class="px-6 py-4 font-medium text-navy-900">Física Aplicada</td>
-                            <td class="px-6 py-4 text-crimson-700 font-semibold">Bachillerato</td>
-                            <td class="px-6 py-4">4to Año</td>
-                            <td class="px-6 py-4"><span
-                                    class="bg-orange-100 text-orange-800 text-xs px-2.5 py-1 rounded font-medium">Tarde</span>
-                            </td>
-                            <td class="px-6 py-4">03:00 PM - 04:40 PM</td>
-                            <td class="px-6 py-4">Ing. Roberto Méndez</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </section>
-
-    <!-- DESCARGA DE RECURSOS -->
-    <section id="recursos" class="py-20 bg-gray-50 border-t border-gray-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="text-xs uppercase font-bold tracking-widest text-crimson-700 mb-2">Centro de Documentación
-                </h2>
-                <h3 class="font-serif text-3xl md:text-4xl font-bold text-navy-900 mb-4">Descarga de Recursos
-                    Institucionales</h3>
-                <p class="text-gray-600">Accede a las guías oficiales, circulares y formatos de inscripción.</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col justify-between">
-                    <div>
-                        <div class="text-crimson-700 text-3xl mb-4"><i class="fa-solid fa-file-pdf"></i></div>
-                        <h4 class="font-serif text-lg font-bold text-navy-900 mb-2">Guía General de Admisiones</h4>
-                        <p class="text-gray-600 text-sm mb-6">Requisitos de ingreso, costos de matrícula y fechas clave.
-                        </p>
-                    </div>
-                    <button onclick="descargarRecurso('Guía General de Admisiones 2026.pdf')"
-                        class="w-full bg-navy-900 hover:bg-navy-800 text-white font-medium py-2.5 rounded text-sm transition">Descargar
-                        PDF</button>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col justify-between">
-                    <div>
-                        <div class="text-crimson-700 text-3xl mb-4"><i class="fa-solid fa-file-lines"></i></div>
-                        <h4 class="font-serif text-lg font-bold text-navy-900 mb-2">Lista de Útiles Escolares</h4>
-                        <p class="text-gray-600 text-sm mb-6">Materiales requeridos por nivel para el año escolar en
-                            curso.</p>
-                    </div>
-                    <button onclick="descargarRecurso('Lista de Útiles Escolares Zazarabicoa.pdf')"
-                        class="w-full bg-navy-900 hover:bg-navy-800 text-white font-medium py-2.5 rounded text-sm transition">Descargar
-                        PDF</button>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 flex flex-col justify-between">
-                    <div>
-                        <div class="text-crimson-700 text-3xl mb-4"><i class="fa-solid fa-book-bookmark"></i></div>
-                        <h4 class="font-serif text-lg font-bold text-navy-900 mb-2">Calendario Académico</h4>
-                        <p class="text-gray-600 text-sm mb-6">Cronograma detallado de evaluaciones, actos y periodos
-                            vacacionales.</p>
-                    </div>
-                    <button onclick="descargarRecurso('Calendario Academico Zazarabicoa.pdf')"
-                        class="w-full bg-navy-900 hover:bg-navy-800 text-white font-medium py-2.5 rounded text-sm transition">Descargar
-                        PDF</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
+    <!-- FOOTER Y UBICACIÓN -->
     <footer id="contacto" class="bg-gray-900 text-gray-400 py-16 border-t border-gray-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-10">
             <div>
                 <div class="flex items-center space-x-3 mb-4">
-                    <!-- Reemplazamos el div del icono por tu imagen -->
                     <div class="flex items-center justify-center">
-                        <img src="assets/img/LOGO_ZAZARABICOA.png" alt="Logo Zazarabicoa" class="h-8 w-auto object-contain">
+                        <img src="assets/img/LOGO_ZAZARABICOA.png" alt="Logo Zazarabicoa"
+                            class="h-8 w-auto object-contain">
                     </div>
                     <span class="font-serif font-bold text-lg text-white tracking-wider">ZAZARABICOA</span>
                 </div>
-                <p class="text-sm text-gray-400">Centro educativo privado enfocado en la excelencia y formación en
-                    valores.</p>
+                <p class="text-sm text-gray-400">Complejo Educativo comprometido con el desarrollo integral, desde
+                    Inicial hasta 5to año de bachillerato.</p>
             </div>
             <div>
                 <h5 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Enlaces</h5>
                 <ul class="space-y-2 text-sm">
-                    <li><a href="#acerca" class="hover:text-white">Historia</a></li>
+                    <li><a href="#acerca" class="hover:text-white">Institución</a></li>
                     <li><a href="#noticias" class="hover:text-white">Noticias</a></li>
                     <li><a href="#calificaciones" class="hover:text-white">Calificaciones</a></li>
-                    <li><a href="#horarios" class="hover:text-white">Horarios</a></li>
                 </ul>
             </div>
             <div>
-                <h5 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Campus</h5>
-                <p class="text-sm text-gray-300">Zazarabicoa Hall, Av. Principal 1742<br>contacto@zazarabicoa.edu</p>
+                <h5 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Ubicación</h5>
+                <p class="text-sm text-gray-300">
+                    Calle 5 de Julio con Calle Don Jesús Ramos Rodríguez y Calle La Quebradita.<br>
+                    Parroquia Anzoátegui, Municipio Morán, Estado Lara.
+                </p>
             </div>
             <div>
-                <h5 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Boletín</h5>
+                <h5 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Boletín Informativo</h5>
                 <form class="flex flex-col space-y-2"
                     onsubmit="event.preventDefault(); alert('¡Suscripción exitosa!');">
                     <input type="email" placeholder="Correo electrónico"
-                        class="bg-gray-800 text-white px-4 py-2 rounded text-sm border border-gray-700 focus:outline-none">
+                        class="bg-gray-800 text-white px-4 py-2 rounded text-sm border border-gray-700 focus:outline-none"
+                        required>
                     <button type="submit" class="bg-crimson-700 text-white text-sm py-2 rounded">Suscribir</button>
                 </form>
             </div>
         </div>
     </footer>
+    <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+    <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" aria-label="Chat de WhatsApp"
+        class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition transform hover:scale-110">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </a>
 
-    <!-- Scripts para Modales y Menú Móvil -->
+
+    <!-- Scripts -->
     <script>
-        // Funciones para manejar los modales de noticias
+
         function abrirModal(idModal) {
             document.getElementById(idModal).classList.remove('hidden');
         }
@@ -660,7 +720,6 @@
             document.getElementById(idModal).classList.add('hidden');
         }
 
-        // Toggle del menú móvil
         const menuBtn = document.getElementById('menu-btn');
         const mobileMenu = document.getElementById('mobile-menu');
 
@@ -668,10 +727,46 @@
             mobileMenu.classList.toggle('hidden');
         });
 
-        // Simulación de descarga de recursos
         function descargarRecurso(nombreArchivo) {
             alert('Iniciando descarga segura de: ' + nombreArchivo);
         }
+
+        const filtroFacultad = document.getElementById('filtro-facultad');
+        const filtroAno = document.getElementById('filtro-ano');
+        const filtroTurno = document.getElementById('filtro-turno');
+        const buscadorMateria = document.getElementById('buscador-materia');
+        const filasHorario = document.querySelectorAll('#tabla-horarios tr');
+
+        function filtrarTabla() {
+            const fac = filtroFacultad.value.toLowerCase();
+            const ano = filtroAno.value.toLowerCase();
+            const turno = filtroTurno.value.toLowerCase();
+            const busqueda = buscadorMateria.value.toLowerCase();
+
+            filasHorario.forEach(fila => {
+                const fFac = fila.getAttribute('data-facultad').toLowerCase();
+                const fAno = fila.getAttribute('data-ano').toLowerCase();
+                const fTurno = fila.getAttribute('data-turno').toLowerCase();
+                const textoFila = fila.textContent.toLowerCase();
+
+                const coincideFac = fac === 'todos' || fFac.includes(fac);
+                const coincideAno = ano === 'todos' || fAno.includes(ano);
+                const coincideTurno = turno === 'todos' || fTurno.includes(turno);
+                const coincideBusqueda = textoFila.includes(busqueda);
+
+                if (coincideFac && coincideAno && coincideTurno && coincideBusqueda) {
+                    fila.style.display = '';
+                } else {
+                    fila.style.display = 'none';
+                }
+            });
+        }
+
+        if (filtroFacultad) filtroFacultad.addEventListener('change', filtrarTabla);
+        if (filtroAno) filtroAno.addEventListener('change', filtrarTabla);
+        if_turno = document.getElementById('filtro-turno');
+        if (filtroTurno) filtroTurno.addEventListener('change', filtrarTabla);
+        if (buscadorMateria) buscadorMateria.addEventListener('input', filtrarTabla);
     </script>
 </body>
 
